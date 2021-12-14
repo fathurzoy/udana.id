@@ -1,9 +1,11 @@
 import React from "react";
+import Term from "../Term/Term";
 import "./Footer.css";
 
 const Footer = () => {
   return (
     <div className="container-fluid">
+      <Term />
       <footer id="footer" className="site-footer fixed ng-scope">
         <div className="footer-menu">
           <div className="container">

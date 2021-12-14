@@ -48,7 +48,6 @@ const BlogNews = () => {
             </div>
           </div>
         </div>
-        z
       </div>
     </div>
   );
