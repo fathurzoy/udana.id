@@ -9,7 +9,7 @@ const Navbar = () => {
     <>
       <header className="site-header absolute " id="header">
         <div className="content-header">
-          <div className="container">
+          <div className="container-fluid">
             <nav className="navbar navbar-default navbar-static-top">
               <div className="navbar-x " ng-if="landing">
                 <div className="left">
