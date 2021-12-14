@@ -1,0 +1,143 @@
+.site-header.absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: 0 0;
+  z-index: 10;
+  height: 70px;
+  font-family: Ubuntu;
+  font-weight: 600;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  font-family: Karla, sans-serif;
+}
+
+.navbar-static-top {
+  z-index: 1000;
+  border-width: 0 0 1px;
+}
+
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+}
+
+.navbar-brand {
+  height: 50px;
+  padding: 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #999;
+}
+
+.navbar-default .navbar-brand {
+  color: #000;
+}
+
+.navbar-default .navbar-brand img {
+  width: 150px;
+  height: 35px;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: transparent;
+}
+
+.btn-primary-udana b {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+  margin: 8px;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.navbar-default .navbar-toggle {
+  border: none;
+}
+
+.navbar-x {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-toggle.collapsed {
+  margin-bottom: 0 !important;
+}
+
+.navbar-left {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.navbar-right {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.navModal {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  transition: 0.3;
+  text-align: start;
+}
+
+.navModal ul {
+  padding: 10px;
+  margin: 0 20px;
+  margin-top: 10px;
+  background-color: #555;
+}
+
+.navModal li {
+  padding: 5px;
+  padding-top: 10px;
+}
+
+.navModal a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  line-height: 20px;
+}
+
+.navModal .btn-primary-udana {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 4px;
+  }
+
+  .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .navModal {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-right {
+    display: none !important;
+  }
+  .navbar-left {
+    display: none !important;
+  }
+}

@@ -1,0 +1,42 @@
+.sideshow {
+  position: relative;
+  height: 700px;
+  background-image: url("../../assets/hero-image.jpg");
+  background-size: cover;
+}
+
+.sideshow-content {
+  position: absolute;
+  top: 50%;
+  text-align: start;
+  left: 2%;
+  transform: translateY(-50%);
+  max-width: 500px;
+}
+
+.sideshow-content h1 {
+  font-size: 54px;
+  color: #fbcd06;
+  margin-bottom: 25px;
+  font-family: Ubuntu;
+  font-weight: 600;
+}
+
+.sideshow-content .sideshow-description {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.sideshow-content .button a {
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 1200px) {
+  .sideshow .sideshow-content h1 {
+    font-size: 38px;
+  }
+}

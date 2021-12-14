@@ -1,0 +1,47 @@
+.how-it-work {
+  padding: 80px 0;
+  background: url("../../assets/bg-step.png") no-repeat;
+  background-position-x: 1020px;
+  margin-top: 80px;
+}
+
+.how-it-work .title {
+  text-align: left;
+  font-size: 42px;
+  margin-bottom: 15px;
+  line-height: 52px;
+}
+
+.how-it-work .description {
+  text-align: left;
+  margin-bottom: 45px;
+  color: #989bac;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.item-work .item-content {
+  margin: 20px 30px;
+}
+
+.item-work .item-content .one {
+  background: url("../../assets/bg-no1.png") right no-repeat;
+  height: 93px;
+}
+
+.item-work .item-content .item-title {
+  font-size: 25px;
+}
+
+.item-work .item-content h3 {
+  clear: none;
+  margin-bottom: 15px;
+}
+
+.item-work .item-content .item-desc {
+  font-size: 20px;
+  color: #989bac;
+  line-height: 30px;
+  max-height: 100px;
+  overflow: hidden;
+}

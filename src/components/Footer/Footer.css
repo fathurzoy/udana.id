@@ -1,0 +1,13 @@
+.footer-menu {
+  background-color: #fafaff;
+  padding: 25px 10px;
+  font-size: 13px;
+  color: #989bac;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: start;
+}
+
+.footer-menu p {
+  margin-top: 22px;
+}

@@ -1,0 +1,19 @@
+body.font-lato,
+html.font-lato {
+  font: 400 16px Lato, sans-serif !important;
+}
+
+.tawk-button {
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #fbcd06 !important;
+  color: #ffffff !important;
+}
+
+.tawk-min-container svg:not(:root) {
+  overflow: hidden;
+}
+
+.tawk-button .icon_message {
+  color: white;
+}

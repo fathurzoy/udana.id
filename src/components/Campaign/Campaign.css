@@ -1,0 +1,45 @@
+.latest {
+  margin-bottom: 120px;
+}
+
+.campaign {
+  padding-top: 100px;
+}
+
+.campaign .title {
+  font-size: 42px;
+  line-height: 52px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.campaign .description {
+  color: #989bac;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.latest .latest-button {
+  width: 120px;
+  margin-top: 30px;
+}
+
+.latest .latest-button a {
+  border-bottom: 2px solid #fbcd06;
+  padding-bottom: 12px;
+  color: #fbcd06;
+  line-height: 5px;
+  font-size: 18px;
+  font-family: karla;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.3s;
+}
+
+.latest .latest-button a:hover {
+  color: #ffaf00;
+}

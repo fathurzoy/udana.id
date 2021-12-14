@@ -1,0 +1,60 @@
+.terms {
+  margin-bottom: 40px;
+  padding-top: 20px;
+  text-align: start;
+}
+
+.terms .section1 {
+  font-size: 12px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.terms .section1 img {
+  width: 108px;
+  height: 64px;
+}
+
+.terms .section1 label {
+  font-size: 12px;
+  display: block;
+  margin-top: 10px;
+}
+
+.terms .section1 p {
+  text-align: left;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.terms .section2 {
+  font-size: 12px;
+  font-variant: normal;
+  margin: 20px 0;
+  display: inline-block;
+  text-align: start;
+}
+
+.terms .section2 b {
+  color: #989bac;
+}
+
+.terms .section2 .vertical-menu {
+  font-size: 14px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.terms .section2 .vertical-menu a {
+  color: #000;
+  display: block;
+}
+
+.terms .section2 .logo-supported {
+  display: flex;
+}
+
+.terms .section2 img {
+  max-width: 100%;
+  height: auto;
+}
