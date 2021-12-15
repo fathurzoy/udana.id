@@ -5,6 +5,7 @@ import "./Slideshow.css";
 const Slideshow = () => {
   return (
     <>
+      <div className="sideshow_border"></div>
       <div className="sideshow">
         <div className="sideshow-content">
           <div className="container-fluid">

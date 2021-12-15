@@ -1,9 +1,20 @@
 .sideshow {
   position: relative;
+  z-index: 1;
   height: 700px;
   background-image: url("../../assets/hero-image.jpg");
   background-size: cover;
+  border-radius: 0 0 0 20%;
+  border-bottom: 5px solid #fbcd06;
 }
+/* 
+.sideshow_border {
+  position: absolute;
+  height: 7506px;
+  left: 0;
+  top: 0;
+  background-color: #fbcd06;
+} */
 
 .sideshow-content {
   position: absolute;
