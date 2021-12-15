@@ -57,6 +57,8 @@ const TablePage = () => {
     <div
       style={{
         backgroundColor: "#2d2d2d",
+        minHeight: "100vh",
+        height: "auto",
       }}
     >
       <div className="container">
