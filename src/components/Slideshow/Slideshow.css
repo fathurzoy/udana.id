@@ -7,6 +7,11 @@
   border-radius: 0 0 0 20%;
   border-bottom: 5px solid #fbcd06;
 }
+
+.sideshow .cn {
+  top: 50%;
+  position: relative;
+}
 /* 
 .sideshow_border {
   position: absolute;
@@ -52,7 +57,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   .sideshow {
     border-radius: 0 0 0 40px;
   }

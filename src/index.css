@@ -88,3 +88,30 @@ img {
   height: auto;
   width: 100%;
 }
+
+@media (min-width: 1400px) {
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 970px;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-12 {
+    flex: 0 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

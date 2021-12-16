@@ -96,7 +96,15 @@ const Navbar = () => {
         </div>
         <div
           className="navModal"
-          style={showModal ? { height: "flex" } : { display: "none" }}
+          style={
+            showModal
+              ? { visibility: "visible", opacity: "1", height: "auto" }
+              : {
+                  visibility: "hidden",
+                  opacity: "0",
+                  maxHeight: "0px !important",
+                }
+          }
         >
           <ul className="navModal1" ng-if="!investorToken">
             <li>
