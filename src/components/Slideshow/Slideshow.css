@@ -5,7 +5,7 @@
   background-image: url("../../assets/hero-image.jpg");
   background-size: cover;
   border-radius: 0 0 0 20%;
-  border-bottom: 5px solid #fbcd06;
+  border-bottom: 10px solid #fbcd06;
 }
 
 .sideshow .cn {
