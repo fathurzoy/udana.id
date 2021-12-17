@@ -11,7 +11,7 @@ import logo_udana from "../../assets/udana.png";
 const Term = () => {
   return (
     <div className="terms ng-scope">
-      <div className="container">
+      <div className="container responsive">
         <div className="col-md-4">
           <div className="col-md-6 section1">
             <img src={logo_udana} alt="" />

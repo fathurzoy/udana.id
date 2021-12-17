@@ -6,6 +6,11 @@
   flex-wrap: wrap;
 }
 
+.terms .responsive.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .terms .section1 {
   font-size: 12px;
   margin: 20px 0;
